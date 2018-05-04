@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>ネコとネズミさん</title>
+    <title>進むネズミと見張るネコ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #canvas {
@@ -22,10 +22,12 @@
     <script src="title_scene.js"></script>
     <script src="ready_scene.js"></script>
     <script src="game_scene.js"></script>
+    <script src="barrier.js"></script>
+    <script src="score.js"></script>
+    <script src="enemy.js"></script>
     <!--
     <script src="over_scene.js"></script>
     <script src="round.js"></script>
-    <script src="score.js"></script>
     -->
     <script>
         window.document.onkeydown = function(evt){
@@ -42,11 +44,12 @@
         const context = document.getElementById("canvas").getContext("2d");
     </script>
 
-    <h1>ネコとネズミさん</h1>
+    <h1>進むネズミと見張るネコ</h1>
     <p>↑いい題名思いつかなかった</p>
     <h2>どんなゲーム？</h2>
-    <p>わからん</p>
+    <p>ネコの目を盗んでどんどん進んでいくゲーム</p>
+    <p>バレそうになったら皿で"止まって"身を隠しましょう</p>
     <h2>操作方法</h2>
-    <p>考え中</p>
+    <p>Enterキー、クリック、タップ→止まる＆進む</p>
 </body>
 </html>
