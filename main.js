@@ -29,6 +29,8 @@ const init = _ =>{
     //over = new Over();
     loadImage("title", "res/title.png");
     loadImage("game", "res/game.png");
+    loadImage("player1", "res/player1.png");
+    loadImage("player2", "res/player2.png");    
     //loadImage("over", "res/over.png");
     //loadImage("success", "res/success.png");
     //loadImage("failed", "res/failed.png");
