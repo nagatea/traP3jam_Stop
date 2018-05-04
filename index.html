@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>pptp_game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #canvas {
+            width: 600px;
+            height: 400px;
+        }
+
+        #white {
+            color:#ffffff
+        }
+    </style>
+    <script src="main.js"></script>
+    <script src="resource.js"></script>
+    <script src="input.js"></script>
+    <script src="key_manager.js"></script>
+    <script src="mouse_manager.js"></script>
+    <script src="title_scene.js"></script>
+    <!--
+    <script src="ready.js"></script>
+    <script src="game_scene.js"></script>
+    <script src="round.js"></script>
+    <script src="score.js"></script>
+    <script src="over_scene.js"></script>
+    <script src="clear_scene.js"></script>
+    -->
+    <script>
+        window.document.onkeydown = function(evt){
+            if ((evt.which == 38)
+            || (evt.which == 40)
+            ){ evt.which = null;
+            return false;}
+           }
+    </script>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="600" height="400"></canvas>
+    <script>
+        const context = document.getElementById("canvas").getContext("2d");
+    </script>
+
+    <h1>ネコとネズミさん</h1>
+    <p>↑いい題名思いつかなかった</p>
+    <h2>どんなゲーム？</h2>
+    <p>わからん</p>
+    <h2>操作方法</h2>
+    <p>考え中</p>
+</body>
+</html>
