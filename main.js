@@ -24,13 +24,11 @@ const init = _ =>{
     keyManager = new KeyManager();
     mouseManager = new MouseManager();
     title = new Title();
-    //ready = new Ready(3);
-    //game = new Game();
+    ready = new Ready(3);
+    game = new Game();
     //over = new Over();
-    //clear = new Clear();
     loadImage("title", "res/title.png");
-    //loadImage("ready", "res/ready.png");
-    //loadImage("game", "res/game.png");
+    loadImage("game", "res/game.png");
     //loadImage("over", "res/over.png");
     //loadImage("success", "res/success.png");
     //loadImage("failed", "res/failed.png");
